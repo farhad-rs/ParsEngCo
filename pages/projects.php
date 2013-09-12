@@ -5,6 +5,5 @@
 	<div class="pl1 pr1 pb4 content"><?php
 		echo $template['projects'];
 	?></div>
-	<?php include 'inc/copy-right.php'; ?>
-	<?php include 'inc/slideshow.php'; ?>
+	<?php inc('copy-right'); ?>
 </div>

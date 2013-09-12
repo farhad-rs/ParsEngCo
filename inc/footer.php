@@ -1,7 +1,11 @@
-	</div>
-	<script type="text/javascript" src="./scripts/jquery.js"></script>
-	<script type="text/javascript" src="./scripts/colorbox.js"></script>
-	<script type="text/javascript"> '__proto__' in {} && document.write('<script type="text/javascript" src="./scripts/zepto.js"><\/script>'); </script>
-	<script type="text/javascript" src="./scripts/script.js"></script>
+<div class="suggest active">
+  <p><i class="icon-share"></i>در دسترس باشید</p>
+  <form action="share.php" id="share" method="post" target='share-frm'>
+    <input type="text" name="name" id="share-name" placeholder="نام خود را وارد کنید"/>
+    <input type="text" name="smsphone" id="share-phone" placeholder="شماره تلفن خود را وارد نمایید"/>
+    <input type="submit" name="submit" value="ارسال" />
+  </form>
+  <iframe id='share-frm' name='share-frm'></iframe>
+</div>
 </body>
 </html>

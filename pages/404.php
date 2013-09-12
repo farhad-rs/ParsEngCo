@@ -17,6 +17,5 @@
 		</script>
 		<script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 	</div>
-	<?php include 'inc/copy-right.php'; ?>
-	<?php include 'inc/slideshow.php'; ?>
+	<?php inc('copy-right'); ?>
 </div>
